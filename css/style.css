@@ -12,15 +12,15 @@ html {
 /*<!------------------------------------------------------------------------- Galeria ----------------------------------------------------------------->*/
 
 .headline1{
-    color: #000000;
+    color: #ffffff;
 }
 
 #gallery .headline1{
-    color: #000000;
+    color: #fff;
 }
 
 #gallery .headline2{
-    color: #000000;
+    color: #fff;
     padding-top: 1rem;
 
 }
@@ -141,7 +141,7 @@ html {
     height: 60px;
     bottom: 60px;
     right: 40px;
-    color: #030303;
+    color: #eee;
     border-radius: 30px;
     background-color: rgb(0,128,0);
     text-align: center;
@@ -164,7 +164,7 @@ html {
 
 
 #carrosel {
-    background-color: rgb(192, 192, 192); 
+    background-color: black;
     margin: 0;
     padding: 0;
     background-position: center;
@@ -182,7 +182,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.74);
+    background-color: rgba(0, 0, 0, 0.74);
 
 }
 
@@ -196,7 +196,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.74);
+    background-color: rgba(0, 0, 0, 0.74);
 }
 
 
@@ -210,7 +210,7 @@ html {
       background-repeat: no-repeat;
       background-size: cover;
       background-blend-mode: color;
-      background-color: rgba(255, 255, 255, 0.74);
+      background-color: rgba(0, 0, 0, 0.74);
   }
 
 /*<!------------------------------------------------------------------------- Onde anunciamos ----------------------------------------------------------------->*/
@@ -240,18 +240,17 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.74);
+    background-color: rgba(0, 0, 0, 0.74);
     background-blend-mode: color;
 }
 
 /*  <!------------------------------------------------------------------------- Quem sou Eu ----------------------------------------------------------------->*/
 
   #testimonials {
-    background-color: rgb(192, 192, 192); 
+    background-color: rgb(0, 0, 0); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-
 }
  
 .operadoras{
@@ -261,7 +260,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.74);
+    background-color: rgba(0, 0, 0, 0.74);
     background-blend-mode: color;
 }
 
@@ -295,7 +294,7 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 0.8rem 6rem;
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: rgba(0, 0, 0, 0.534);
 }
 
 .logo {
@@ -325,7 +324,6 @@ justify-content: center;
 
 .nav-item {
     margin: 0.5rem;
-    
 }
 
 .nav-link {
@@ -333,7 +331,6 @@ justify-content: center;
     font-size: 1.15rem;
     color: #fff;
     font-weight: 400;
-    color: #000000;
 }
 
 .mobile-menu-icon{
@@ -462,11 +459,11 @@ a{
 }
 
 .pai-frases h3{
-    color: #68552c;
+    color: #ccaa5f;
 }
 
 .pai-frases h5{
-    color: #080808;
+    color: #ffffff;
 }
 
 
@@ -497,7 +494,7 @@ a{
 }
 
 .formuesquerda h1{
-    color: #000000;
+    color: #fff;
 }
 
 .formuesquerdaspan{
@@ -524,7 +521,6 @@ a{
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.2;
-    color: #000000;
 }
 
 .formu form{
@@ -552,12 +548,12 @@ a{
 }
 
 #forminput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
     opacity: 1; /* Firefox */
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
   }
 
 #formlabel{
@@ -707,7 +703,7 @@ a{
 */
 #pzada{
     transform: translate(50px);
-    color:rgb(0, 0, 0);
+    color:rgb(250, 250, 250);
     padding-left: 0.75rem;
 }
 
@@ -719,7 +715,7 @@ a{
     justify-content: center;
     align-items: center;
     align-content: center;
-    color: #000000;
+    color: #fff;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -777,7 +773,6 @@ a{
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
     animation: fadeIn 2s;
-    color: #000000;
 }
 
 #showcase-container p {
@@ -841,7 +836,6 @@ a{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
-    color: #000000;
 }
 
 
@@ -852,7 +846,6 @@ a{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 3.5%;
-    color: #000000;
     
     
 }
@@ -865,7 +858,6 @@ a{
     padding-top: 1.0%;
     color: rgba(255, 255, 255, 0.877);
     letter-spacing: 2px;
-    color: #000000;
 }
 
 #botoes_redes .Hfooter{
@@ -952,8 +944,6 @@ color: rgb(0, 0, 0);
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    text-align: justify;
-    color: #000000;
 }
 
 
@@ -981,7 +971,6 @@ color: rgb(0, 0, 0);
 #testimonials .headline1{
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255); 
-    color: #000000;
 }
 
 
@@ -992,14 +981,14 @@ color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 30px;
     text-align: center;
-    background-color: rgb(192, 192, 192); 
+    background-color: rgb(0, 0, 0);
     background-blend-mode: color;
    
 }
 
 .footer p{
     
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
    
 }
