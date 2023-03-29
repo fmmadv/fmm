@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 /*font-family: 'Montserrat', sans-serif;*/
 /*https://www.youtube.com/watch?v=G4_QjTJTVlc
 46 mobile*/
@@ -12,18 +14,9 @@ html {
 /*<!------------------------------------------------------------------------- Galeria ----------------------------------------------------------------->*/
 
 .headline1{
-    color: #ffffff;
+    color: #000000;
 }
 
-#gallery .headline1{
-    color: #fff;
-}
-
-#gallery .headline2{
-    color: #fff;
-    padding-top: 1rem;
-
-}
 
 #gallery-container{
     display: grid;
@@ -141,7 +134,7 @@ html {
     height: 60px;
     bottom: 60px;
     right: 40px;
-    color: #eee;
+    color: #ffffff;
     border-radius: 30px;
     background-color: rgb(0,128,0);
     text-align: center;
@@ -161,10 +154,21 @@ html {
 
 /****************************/
 
+#showcase{
+  
+    background-image: url("../img/foto1_d.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.514);
+
+}
 
 
 #carrosel {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.514);
     margin: 0;
     padding: 0;
     background-position: center;
@@ -174,17 +178,7 @@ html {
 }
 
 
-#showcase{
-  
-    background-image: url("../img/foto1_d.png");
-    margin: 0;
-    padding: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.74);
 
-}
 
 
 /*<!------------------------------------------------------------------------- Porque é contratar ----------------------------------------------------------------->*/
@@ -196,7 +190,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(255, 255, 255, 0.514);
 }
 
 
@@ -210,7 +204,7 @@ html {
       background-repeat: no-repeat;
       background-size: cover;
       background-blend-mode: color;
-      background-color: rgba(0, 0, 0, 0.74);
+      background-color: rgba(255, 255, 255, 0.514);
   }
 
 /*<!------------------------------------------------------------------------- Onde anunciamos ----------------------------------------------------------------->*/
@@ -240,15 +234,14 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(255, 255, 255, 0.514);
     background-blend-mode: color;
 }
 
 /*  <!------------------------------------------------------------------------- Quem sou Eu ----------------------------------------------------------------->*/
 
-  #testimonials {
-    background-color: rgb(0, 0, 0); 
-    background-attachment: fixed;
+#testimonials {
+    background-color: rgba(255, 255, 255, 0.514);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -260,12 +253,9 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(255, 255, 255, 0.514);
     background-blend-mode: color;
 }
-
-
-
 
 /*<!------------------------------------------------------------------------- Fim Background images  ----------------------------------------------------------------->*/
 
@@ -276,11 +266,8 @@ html {
 .header-nav{
     background-blend-mode: color;
     position: fixed; z-index: 1; width: 100%;
-    animation: fadeIn 2s;
-    
+    animation: fadeIn 2s;   
 }
-
-
 
 .logo-nav{
     width: 60px;
@@ -294,7 +281,7 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 0.8rem 6rem;
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(255, 255, 255, 0.534);
 }
 
 .logo {
@@ -324,6 +311,7 @@ justify-content: center;
 
 .nav-item {
     margin: 0.5rem;
+    
 }
 
 .nav-link {
@@ -331,6 +319,8 @@ justify-content: center;
     font-size: 1.15rem;
     color: #fff;
     font-weight: 400;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .mobile-menu-icon{
@@ -455,15 +445,16 @@ a{
     grid-template-columns: repeat(3, 2fr);
     grid-gap:30px;
     justify-items: center;
+    
 
 }
 
 .pai-frases h3{
-    color: #ccaa5f;
+    color: #68552c;
 }
 
 .pai-frases h5{
-    color: #ffffff;
+    color: #080808;
 }
 
 
@@ -471,7 +462,7 @@ a{
 
 .formu-body{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap:1rem;
     justify-items: center;
     justify-content: center;
@@ -483,18 +474,20 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 13rem;
-    padding-left: 5rem;
 
+    padding-right: 3rem;
 }
 
 
 .formuesquerda h3{
     color: #9b9b9b;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
 }
 
-.formuesquerda h1{
-    color: #fff;
+.formuesquerda h3{
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .formuesquerdaspan{
@@ -502,7 +495,7 @@ a{
 }
 
 .formu {
-    background: rgba(255, 255, 255, 0.514);
+    background: rgba(0, 0, 0, 0.788);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 3rem;
     align-items: center;
@@ -516,11 +509,13 @@ a{
 }
 
 .formu h1{
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(255, 255, 255);
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.2;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .formu form{
@@ -553,14 +548,14 @@ a{
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: rgb(255, 255, 255);
+    color: rgb(14, 13, 13);
   }
 
 #formlabel{
     display: block;
     width: 100%;
 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     line-height: 1;
     margin-bottom: 0.5rem;
 
@@ -703,7 +698,7 @@ a{
 */
 #pzada{
     transform: translate(50px);
-    color:rgb(250, 250, 250);
+    color:rgb(0, 0, 0);
     padding-left: 0.75rem;
 }
 
@@ -715,7 +710,7 @@ a{
     justify-content: center;
     align-items: center;
     align-content: center;
-    color: #fff;
+    color: #000000;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -770,9 +765,11 @@ a{
 
 #showcase-container #h222{
     
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
     animation: fadeIn 2s;
+    color: #000000;
+    
 }
 
 #showcase-container p {
@@ -836,6 +833,7 @@ a{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
+    color: #000000;
 }
 
 
@@ -846,6 +844,7 @@ a{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 3.5%;
+    color: #000000;
     
     
 }
@@ -858,6 +857,7 @@ a{
     padding-top: 1.0%;
     color: rgba(255, 255, 255, 0.877);
     letter-spacing: 2px;
+    color: #000000;
 }
 
 #botoes_redes .Hfooter{
@@ -938,12 +938,17 @@ color: rgb(0, 0, 0);
     padding: 20px;
 }
 
+
+
 #testimonials p{
     color: rgb(207, 207, 207);
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    text-align: justify;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -971,6 +976,7 @@ color: rgb(0, 0, 0);
 #testimonials .headline1{
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255); 
+    color: #000000;
 }
 
 
@@ -981,14 +987,14 @@ color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 30px;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     background-blend-mode: color;
    
 }
 
 .footer p{
     
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
    
 }
@@ -1020,7 +1026,7 @@ color: rgb(0, 0, 0);
         padding-right: 2rem;
         margin-top: 10rem;
         padding-top: 1rem;
-    
+        
     }
     
     #showcase-container2 h3{
@@ -1045,11 +1051,13 @@ color: rgb(0, 0, 0);
         box-shadow: 5px 10px 9px #5c5c5c60;
         margin-right: 0rem;
         width: 20rem;
+        
     }
     
     
     .formu h1{
        font-size: 2rem;
+       
     }
                 
     

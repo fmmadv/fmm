@@ -54,7 +54,6 @@
 
 /*<!------------------------------------------------------------------------- Carrosel  ----------------------------------------------------------------->*/
 
-
 #carrosel {
     background-image: url("../img/foto3.png") ;
     margin: 0;
@@ -62,15 +61,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.74);
+ 
     background-blend-mode: color;
 }
-
 
 /*<!------------------------------------------------------------------------- Nav-Bar  ----------------------------------------------------------------->*/
 
 .header-nav{
-    
     background-blend-mode: color;
     position: absolute;
     width: 100%;
@@ -93,11 +90,15 @@
     border: none;
     cursor: pointer;
     display: flex;
-    padding-top: 0.7rem;    
+    padding-top: 0.7rem;
+}
+
+.icon-menu{
+    width: 2rem;
 }
 
 .menu-mobile{
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(255, 255, 255, 0.534);
     transition: all .2s;
 }
 
@@ -116,20 +117,18 @@
     width: 9rem;
 }
 
-
 /*-----------------------------------------------------------Formulário --------------------*/
 
 .formu-body{
-    background-image: url("../img/foto5.png");
+    background-image: none;
+    background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap:1rem;
     justify-items: center;
-    background-color: rgba(0, 0, 0, 0.74);
     background-blend-mode: color;
     justify-content: center;
     padding-top: 5rem;
-    
 }
 
 .formuesquerda{
@@ -156,7 +155,7 @@
 }
 
 .formu {
-    background: rgba(255, 255, 255, 0.233);
+    background: rgba(0, 0, 0, 0.801);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 3rem;
     align-items: center;
@@ -180,7 +179,13 @@
 
 
 #testimonials {
-    width: 100%;
+    background-image: url("../img/foto4_d.png");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.514);
     background-blend-mode: color;
 }
 
@@ -215,7 +220,7 @@
 
 #navbar {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgb(255, 255, 255);
     color: #eee;
     height: 4rem;
     position: fixed;
@@ -444,7 +449,6 @@
 .headline2{
     font-size: 0.7rem;
     padding-bottom: 2px;
-    color: #dbdbdbcb;
     padding: 0.5rem;
 }
 
@@ -463,7 +467,6 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-
 }
 
 #botoes_redes{
@@ -519,13 +522,29 @@
 /*<!------------------------------------------------------------------------- Galeria ----------------------------------------------------------------->*/
 
 
+.formuesquerda h3{
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+}
+
+#gallery-container{
+    background-image: none;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.514);
+    background-blend-mode: color;
+}
 
 
 /* ------------------------------------------------------------------------- Testimonials ------------------------------------------------------------------------- */
 .testimonial {
     flex-direction: column;
     text-align: center;
-    background: #3333333d;
+    background: #ffffffa9;
 }
 
 .testimonial p{
