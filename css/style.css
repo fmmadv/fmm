@@ -33,7 +33,6 @@ html {
 }
 
 #btnLeiaMais{
-
     padding: 30px 40px;
     font-size: 1.3rem;
     background: rgb(253, 253, 253);
@@ -342,7 +341,6 @@ justify-content: center;
     to {opacity: 1;}
 }
 
-
 /*<!------------------------------------------------------------------------- Inicio ----------------------------------------------------------------->*/
 * {
     box-sizing: border-box;
@@ -474,7 +472,6 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding-right: 3rem;
 }
 
@@ -519,7 +516,6 @@ a{
 }
 
 .formu form{
-
     width: 100%;
     max-width: 32rem;
     font-size: 1.125rem;

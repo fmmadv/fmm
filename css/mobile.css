@@ -120,15 +120,15 @@
 /*-----------------------------------------------------------Formulário --------------------*/
 
 .formu-body{
-    background-image: none;
-    background-color: #ffffff;
-    display: grid;
+    background-image: url("../img/foto5.png") ;
+     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap:1rem;
     justify-items: center;
     background-blend-mode: color;
     justify-content: center;
     padding-top: 5rem;
+    background-color: rgba(255, 255, 255, 0.514);
 }
 
 .formuesquerda{
@@ -179,7 +179,7 @@
 
 
 #testimonials {
-    background-image: url("../img/foto4_d.png");
+
     margin: 0;
     padding: 0;
     background-position: center;
@@ -519,6 +519,10 @@
     height: 1rem;
 }
 
+.container-images {
+    width: 200rem;
+}
+
 /*<!------------------------------------------------------------------------- Galeria ----------------------------------------------------------------->*/
 
 
@@ -529,7 +533,6 @@
 }
 
 #gallery-container{
-    background-image: none;
     margin: 0;
     padding: 0;
     background-position: center;
