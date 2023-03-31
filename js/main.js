@@ -167,7 +167,7 @@ sr.reveal('.titulo_do_servico',{
 
 sr.reveal('#servico-container',{
     rotate: {x: 0, y: 80, z: 0},
-    
+
 });
 /*Formulário*/ 
 sr.reveal('.formuesquerda',{
@@ -179,11 +179,4 @@ sr.reveal('.formu',{
     rotate: {x: 0, y: 80, z: 0},
     
 });
-
-
-
-
-
-
-
 

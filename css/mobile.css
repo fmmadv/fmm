@@ -506,7 +506,7 @@
 
 #carrosel{
     padding-top: 2rem;
-    min-height: 42vh;
+    min-height: 37vh;
  }
 
 
@@ -691,7 +691,7 @@
     @media (min-width: 500px) and (max-width: 878px) {
       
         #carrosel{
-            min-height: 70vh;
+            min-height: 50vh;
          }
         
          .container-slider{
@@ -707,6 +707,8 @@
         .logo-nav-dois{
             width: 12rem;
         }
+            
+          
         
     }
 
