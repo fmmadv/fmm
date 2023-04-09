@@ -1,0 +1,26 @@
+.obrigado-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /*grid-gap:1rem;*/
+    justify-items: center;
+    justify-content: center;
+    padding: 0rem;
+    padding-top: 0rem;
+}
+
+.obrigado-container{
+    display: grid;
+    justify-items: center;
+    padding: 4rem;
+    margin-top: 9rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 50px;
+    box-shadow: 1px 4px 9px #5c5c5cb9;
+    backdrop-filter: blur(20px);
+    background-color: rgba(240, 248, 255, 0.363);
+}
+
+.h3-obrigado{
+    text-align: center;
+}

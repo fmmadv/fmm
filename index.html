@@ -150,8 +150,13 @@
         
     </div>
     <div class="formu">
-        <form action="https://formsubmit.co/contato@fmmadvogados.com" method="POST">
+    
+     <form action="https://formsubmit.co/contato@fmmadvogados.com" method="POST">
+
+
             <h1>Formulário de Contato</h1>
+            <input type="hidden" name="_subject" value="Formulário de Contato [Site]">
+            <input type="hidden" name="_template" value="table">
             <label id="formlabel" for="name"></label>
             <input id="forminput" type="text" name="nome" placeholder="Nome" id="nome" required>
             <label id="formlabel" for="telefone"></label>
@@ -161,7 +166,10 @@
             <label id="formlabel" for="email"></label>
             <input id="forminput"type="email" name="email" placeholder="Email" id="nome" required>
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://fmmadvogados.com/">
+            
+            
+            <input type="hidden" name="_next" value="https://fmmadvogados.com/obrigado"> 
+            
             <button id="formbutton"type="submit">Enviar</button>
        </form>
     </div>
@@ -184,9 +192,6 @@
 </section>
 ------->
 <!--   -->
-
-
-
 
   <!------------------------------------------------------------------------- Footer --------------------------------------------------------------->
 

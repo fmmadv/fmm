@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    background-image: url("../img/funoobrigado.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.712);
+    font-family: 'Open Sans', sans-serif;
+    background-blend-mode: color;
+}
+
+.obrigado-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /*grid-gap:1rem;*/
+    justify-items: center;
+    justify-content: center;
+    padding: 4rem;
+    padding-top: 4rem;
+}
+
+.obrigado-container{
+    display: grid;
+    justify-items: center;
+    padding: 4rem;
+    margin-top: 12rem;
+    margin-left: 9rem;
+    margin-right: 10rem;
+    border-radius: 50px;
+    box-shadow: 1px 4px 9px #5c5c5cb9;
+    backdrop-filter: blur(20px);
+    background-color: rgba(240, 248, 255, 0.363);
+}
+
+.logo-nav{
+    width: 7rem;
+}
+
+
+.h1-obrigado{
+    text-align: center;
+    color: white;
+}
+
+
+.h3-obrigado{
+    text-align: center;
+    color: white;
+}
